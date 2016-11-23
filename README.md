@@ -1,2 +1,2 @@
-# AP1.1-ForWindows-
+# AP1.2-ForWindows
 Creat a virtual hotspot
