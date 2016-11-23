@@ -1,6 +1,7 @@
 #include"stdlib.h"
 #include"stdio.h"
 #include"string.h"
+#include"conio.h"		//实现按下即输出
 	char start();
 	int choose();
 	void one();
@@ -46,7 +47,8 @@ char start(){
 	printf("\t\t\t\t\tPowerd by Mix\n\n");
 	printf("请输入字符选择功能：");
 //	scanf("%c",&num);
-	num=getchar();
+//	num=getchar();
+	num=getch();	//按下即输出（调用conio.h）
 	system("cls");
 //	printf("\t\t\t\t\tPowerd by Mix %c\n\n",num);
 //	printf("warning:输入有误，请重试!\n"); 
